@@ -1,0 +1,33 @@
+/** BACKGROUNDS */
+.background-primary {
+  background-color: var(--primary-color);
+}
+
+.background-gradient {
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(75,9,121,1) 35%, rgba(192,0,255,1) 100%);
+}
+
+/** TEXT ALIGNMENT */
+.text-center {
+  text-align: center;
+}
+
+/** MARGINS */
+.mt-16 {
+  margin-top: 16px;
+}
+
+/** PADDING */
+.padding-20 {
+  padding: 20px;
+}
+
+/**WIDTH */
+.w-100 {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
+}

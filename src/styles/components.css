@@ -1,0 +1,131 @@
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.invalid-input {
+  border-color: red;
+  outline: none;
+}
+
+a {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+button.secondary {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+}
+button.primary-outline {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.main-container {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid var(--text-color);
+  border-radius: 10px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sm-card {
+  max-width: 400px;
+}
+
+
+/* ERROR MESSAGE */
+.error-message {
+  color: red;
+  font-size: 0.7rem;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+/** NAVBAR */
+.navbar {
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+  background-color: var(--gray-100);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/** TABLE */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th.center, .table td.center {
+  text-align: center;
+}
+
+.table th {
+  background-color: var(--gray-100);
+  text-align: left;
+}
+
+.table td button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.container {
+  padding: 60px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  max-width: 1000px;
+}

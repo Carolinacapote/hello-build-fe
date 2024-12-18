@@ -1,0 +1,21 @@
+@import './components.css';
+@import './layout.css';
+@import './utilities.css';
+
+:root {
+  --primary-color: #6a38c6;
+  --secondary-color:#1a7f37;
+  --gray-100: #f6f8fa;
+  --background-color: #ffffff;
+  --text-color: #292121;
+  --light-color: #ffffff;
+  --font-family: 'Arial', sans-serif;
+  --font-size-base: 1rem;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--text-color);
+  background-color: transparent;
+}
